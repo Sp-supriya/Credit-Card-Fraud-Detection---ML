@@ -1,41 +1,34 @@
 ---
 
-## 💳 Credit Card Fraud Detection - Machine Learning
+## 💳 Credit Card Fraud Detection - MACHINE LEARNING
 
-This project focuses on building a machine learning model to detect fraudulent credit card transactions. Using real-world anonymized transaction data, the goal is to identify fraudulent activities with high accuracy and low false positives. The dataset is highly imbalanced, making this a challenging and practical application of ML in the finance and cybersecurity domains.
+This project aims to build a machine learning model that can detect fraudulent credit card transactions. The dataset used is highly imbalanced, making it a good case study for applying classification techniques and handling data imbalance.
 
-### 🔍 Objectives
+### Project Goals:
 
-* Analyze and preprocess the credit card transaction dataset.
-* Handle class imbalance using techniques like SMOTE or undersampling.
-* Train and evaluate various classification models (Logistic Regression, Random Forest, XGBoost, etc.).
-* Improve model performance using hyperparameter tuning and cross-validation.
-* Measure performance using precision, recall, F1-score, ROC-AUC, and confusion matrix.
+* Understand and preprocess the dataset
+* Explore data imbalance and apply balancing techniques like SMOTE
+* Train multiple ML models such as Logistic Regression, Random Forest, and XGBoost
+* Evaluate models using metrics like accuracy, precision, recall, F1-score, and ROC-AUC
 
-### 📁 Dataset
+### Dataset:
 
-* The dataset used is from [Kaggle Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud).
-* It contains transactions made by European cardholders in September 2013.
-* Features are anonymized (V1 to V28) due to confidentiality, along with `Time`, `Amount`, and `Class` (target: 0 for normal, 1 for fraud).
+* Sourced from [Kaggle: Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+* Includes 284,807 transactions with 492 fraud cases
+* Features are anonymized (V1 to V28), with `Amount`, `Time`, and `Class` (target variable)
 
-### 🛠️ Tools & Technologies
+### Tools & Libraries:
 
-* **Python**
-* **Pandas, NumPy, Matplotlib, Seaborn**
-* **Scikit-learn**
-* **Imbalanced-learn (SMOTE)**
-* **XGBoost**
+* Python
+* Pandas, NumPy, Seaborn, Matplotlib
+* Scikit-learn
+* Imbalanced-learn (SMOTE)
+* XGBoost
 
-### 📊 Evaluation Metrics
+### Results:
 
-* Confusion Matrix
-* Accuracy
-* Precision & Recall
-* F1-Score
-* ROC-AUC Curve
-
-### 🚀 Outcome
-
-The final model can successfully distinguish between legitimate and fraudulent transactions with high recall and precision, making it a strong baseline for real-world fraud detection systems.
+* Models were successfully trained and evaluated
+* Achieved strong performance in detecting fraud with high recall and precision
+* ROC-AUC score used to measure overall performance
 
 ---
